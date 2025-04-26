@@ -15,28 +15,37 @@ Este é um projeto web simples desenvolvido com Python e Flask que permite conve
 ```bash
 git clone https://github.com/RenanLM/PyConvert.git
 cd PyConvert
+```
 
 2. **Crie um ambiente virtual (opcional, mas recomendado):**
 
+```bash
 python -m venv venv
 source venv/bin/activate  # Linux/macOS
 venv\Scripts\activate     # Windows
+```
 
 3. **Instale as dependências**
 
+```bash
 pip install flask
+```
 
-▶️ Como executar
+## ▶️ Como executar
 
 Execute o servidor Flask com o seguinte comando:
 
+```bash
 python app.py
+```
 
 Acesse o app no navegador:
-
+```bash
 http://localhost:5000
+```
 
-🧪 Funcionalidades
+## 🧪 Funcionalidades
+
 Você pode converter unidades nas seguintes categorias:
 
 Temperatura
@@ -62,4 +71,4 @@ Miligramas ↔ Quilogramas / Gramas
 
 
 
-Desenvolvido com 💻 e ☕ por Renan Moura
+## Desenvolvido com 💻 e ☕ por Renan Moura
