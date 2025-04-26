@@ -1,0 +1,99 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f0f0f0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container principal */
+.container {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+/* Títulos */
+h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #ffffff;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-size: 1.1em;
+    text-align: center;
+}
+
+/* Input e Select */
+input, select {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+}
+
+select {
+    cursor: pointer;
+}
+
+/* Botões */
+button, a.button {
+    padding: 12px;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, a.button:hover {
+    background-color: #2980b9;
+}
+
+/* Resultados */
+ul {
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 0;
+}
+
+ul li {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+/* Botão de voltar */
+.voltar {
+    margin-top: 20px;
+    display: inline-block;
+}
