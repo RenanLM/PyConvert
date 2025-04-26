@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor Universal</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor Universal</h1>
+        <form method="POST" action="/">
+            <label for="unidade">Escolha a conversão:</label><br>
+            <select id="unidade" name="unidade" required>
+                <optgroup label="Temperatura">
+                    <option value="F->C">Fahrenheit → Celsius</option>
+                    <option value="C->F">Celsius → Fahrenheit</option>
+                    <option value="K->C">Kelvin → Celsius</option>
+                    <option value="C->K">Celsius → Kelvin</option>
+                    <option value="K->F">Kelvin → Fahrenheit</option>
+                    <option value="F->K">Fahrenheit → Kelvin</option>
+                </optgroup>
+                <optgroup label="Comprimento">
+                    <option value="km->m">Quilômetro → Metro</option>
+                    <option value="km->cm">Quilômetro → Centímetro</option>
+                    <option value="m->cm">Metro → Centímetro</option>
+                    <option value="m->mm">Metro → Milímetro</option>
+                    <option value="m->km">Metro → Quilômetro</option>
+                    <option value="cm->m">Centímetro → Metro</option>
+                    <option value="cm->km">Centímetro → Quilômetro</option>
+                </optgroup>
+                <optgroup label="Massa">
+                    <option value="kg->g">Quilograma → Grama</option>
+                    <option value="g->kg">Grama → Quilograma</option>
+                    <option value="mg->kg">Miligramas → Quilograma</option>
+                    <option value="kg->mg">Quilograma → Miligrama</option>
+                    <option value="mg->g">Miligramas → Grama</option>
+                </optgroup>
+            </select><br><br>
+
+            <label for="valor">Digite o valor:</label><br>
+            <input id="valor" type="number" step="any" name="valor" required placeholder="Insira o valor"><br><br>
+
+            <button type="submit">Converter</button>
+        </form>
+    </div>
+</body>
+</html>
